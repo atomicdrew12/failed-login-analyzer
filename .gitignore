@@ -216,3 +216,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Keep the synthetic sample log (the Python template ignores *.log)
+!samples/*.log

@@ -1,0 +1,40 @@
+Sep 30 08:01:12 webserver sshd[1021]: Accepted publickey for alice from 192.0.2.10 port 50122 ssh2: RSA SHA256:q3Zb8xXEXAMPLEFINGERPRINTaaaa
+Sep 30 08:01:12 webserver sshd[1021]: pam_unix(sshd:session): session opened for user alice(uid=1001) by (uid=0)
+Sep 30 08:05:47 webserver sshd[1034]: Accepted password for bob from 192.0.2.25 port 51844 ssh2
+Sep 30 08:05:47 webserver sshd[1034]: pam_unix(sshd:session): session opened for user bob(uid=1002) by (uid=0)
+Sep 30 08:10:03 webserver sshd[1102]: Failed password for root from 203.0.113.45 port 40112 ssh2
+Sep 30 08:10:07 webserver sshd[1104]: Failed password for root from 203.0.113.45 port 40118 ssh2
+Sep 30 08:10:11 webserver sshd[1106]: Failed password for root from 203.0.113.45 port 40126 ssh2
+Sep 30 08:10:16 webserver sshd[1108]: Failed password for admin from 203.0.113.45 port 40131 ssh2
+Sep 30 08:10:20 webserver sshd[1110]: Failed password for root from 203.0.113.45 port 40139 ssh2
+Sep 30 08:10:25 webserver sshd[1112]: Failed password for admin from 203.0.113.45 port 40144 ssh2
+Sep 30 08:10:29 webserver sshd[1114]: Failed password for root from 203.0.113.45 port 40152 ssh2
+Sep 30 08:10:34 webserver sshd[1116]: Failed password for admin from 203.0.113.45 port 40157 ssh2
+Sep 30 08:10:38 webserver sshd[1118]: Failed password for root from 203.0.113.45 port 40163 ssh2
+Sep 30 08:10:43 webserver sshd[1120]: Failed password for root from 203.0.113.45 port 40170 ssh2
+Sep 30 08:10:47 webserver sshd[1122]: Failed password for admin from 203.0.113.45 port 40176 ssh2
+Sep 30 08:10:52 webserver sshd[1124]: Failed password for root from 203.0.113.45 port 40181 ssh2
+Sep 30 08:10:53 webserver sshd[1124]: Connection closed by authenticating user root 203.0.113.45 port 40181 [preauth]
+Sep 30 08:22:30 webserver sshd[1201]: Invalid user test from 198.51.100.77 port 33410
+Sep 30 08:22:30 webserver sshd[1201]: Failed password for invalid user test from 198.51.100.77 port 33410 ssh2
+Sep 30 08:22:36 webserver sshd[1203]: Invalid user oracle from 198.51.100.77 port 33422
+Sep 30 08:22:36 webserver sshd[1203]: Failed password for invalid user oracle from 198.51.100.77 port 33422 ssh2
+Sep 30 08:22:41 webserver sshd[1205]: Invalid user guest from 198.51.100.77 port 33430
+Sep 30 08:22:41 webserver sshd[1205]: Failed password for invalid user guest from 198.51.100.77 port 33430 ssh2
+Sep 30 08:22:47 webserver sshd[1207]: Invalid user ubuntu from 198.51.100.77 port 33441
+Sep 30 08:22:47 webserver sshd[1207]: Failed password for invalid user ubuntu from 198.51.100.77 port 33441 ssh2
+Sep 30 08:22:52 webserver sshd[1209]: Invalid user postgres from 198.51.100.77 port 33455
+Sep 30 08:22:52 webserver sshd[1209]: Failed password for invalid user postgres from 198.51.100.77 port 33455 ssh2
+Sep 30 08:22:58 webserver sshd[1211]: Invalid user ftpuser from 198.51.100.77 port 33462
+Sep 30 08:22:58 webserver sshd[1211]: Failed password for invalid user ftpuser from 198.51.100.77 port 33462 ssh2
+Sep 30 08:31:15 webserver sshd[1302]: Accepted publickey for alice from 192.0.2.10 port 50390 ssh2: RSA SHA256:q3Zb8xXEXAMPLEFINGERPRINTaaaa
+Sep 30 08:40:02 webserver sshd[1350]: Failed password for deploy from 198.51.100.23 port 45012 ssh2
+Sep 30 08:40:09 webserver sshd[1352]: Failed password for deploy from 198.51.100.23 port 45020 ssh2
+Sep 30 08:40:17 webserver sshd[1354]: Failed password for deploy from 198.51.100.23 port 45031 ssh2
+Sep 30 08:40:24 webserver sshd[1356]: Failed password for deploy from 198.51.100.23 port 45039 ssh2
+Sep 30 08:40:31 webserver sshd[1358]: Failed password for deploy from 198.51.100.23 port 45046 ssh2
+Sep 30 08:40:39 webserver sshd[1360]: Failed password for deploy from 198.51.100.23 port 45055 ssh2
+Sep 30 08:40:46 webserver sshd[1362]: Accepted password for deploy from 198.51.100.23 port 45063 ssh2
+Sep 30 08:40:46 webserver sshd[1362]: pam_unix(sshd:session): session opened for user deploy(uid=1005) by (uid=0)
+Sep 30 09:02:18 webserver sshd[1410]: Failed password for bob from 192.0.2.25 port 52007 ssh2
+Sep 30 09:02:25 webserver sshd[1410]: Accepted password for bob from 192.0.2.25 port 52007 ssh2
